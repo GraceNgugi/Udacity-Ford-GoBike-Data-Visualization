@@ -17,9 +17,10 @@ I found some tidiness and quality issues in the forgobike dataset and performed 
 ## Summary of Findings
 
 Univariate Exploration
+
 Variable distribution.
 
-1. Most users are subsribers and not customers.
+1. Most users are subscribers and not customers.
 2. In terms of gender most users are males.
 3. Most users are not enrolled in the trip program according to the distribution of the bike share users on all Trips.
 4. Most users spend less than 30 minutes for a trip.
@@ -40,6 +41,7 @@ Multivariate Exploration
 My main focus in this analysis is to check the distribution of the main features of interest in this dataset.
 
 The features of interest include:
+
 a. The user type distribution. The user type present in the bike sharing system is the subscriber amd customer. 
 
 b. Checking on the gender distribution to determine the gender that is most involved in the bike sharing system. 
