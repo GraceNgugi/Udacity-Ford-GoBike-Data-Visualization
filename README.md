@@ -14,27 +14,39 @@ I found some tidiness and quality issues in the forgobike dataset and performed 
 7. Changed the age datatype from float to int.
 
 
-## Summary of Findings
+## Questions for Analysis
 
 Univariate Exploration
 
-Variable distribution.
+1. What is the gender distribution?
 
-1. Most users are subscribers and not customers.
-2. In terms of gender most users are males.
-3. Most users are not enrolled in the trip program according to the distribution of the bike share users on all Trips.
-4. Most users spend less than 30 minutes for a trip.
-5. The age distribution is left skewed
+2. Checking the distribution of the trip duration in seconds.
+
+3. What is the distribution of the users ages?
+
+4. What is the distribution of the bike share users on all Trips?
+
+5. What is the distribution for user Type?
+
+6. What is the distribution of the trip duration in minutes?
 
 Bivariate Exploration
 
-1. The user-type customer go for longer trip compared to a subscriber.
-2. The trip duration decrease with an increase in age.
+1. How long is the duration of the trip for each gender in minutes?
+
+2. How long is the duration of the trip for each user-type in minutes?
+
+3. Check the user distribution depending on their age and gender.
+
+4. Check the user distribution depending on their age and user-type.
 
 Multivariate Exploration
 
-1. Males have shorter bike trips as compared to other gender.
-2. There is a negative correletaion between member birth year and age.
+1. Explore the relationship between start day of the week, gender and trip-durations (in minutes).
+
+2. What is the correlation between specific numeric variables in the forgobike dataset?
+
+3. Explore the relationship between age, gender and trip-durations (in minutes).
 
 ## Key Insights for Presentation
 
